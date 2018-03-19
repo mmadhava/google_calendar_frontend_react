@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.calendar {
+  clear: both;
+}
+
+.days .day,.days .dayHeader {
+  
+    padding: 0.5em;
+    text-align: center;
+    float: left;
+    width: 14%;
+  }
+  
+  .days .pale {
+    color: #aaa;
+  }
+  
+  .days .dayHeader {
+    font-weight: 600;
+  }
+
+
+.monthHeader {
+  padding: 0.5em;
+  text-align: center;
+  font-weight: 900;
+  float: left;
+  width: 71%;
+}
+
+.goPreviousMonth,
+.goNextMonth {
+  text-align: center;
+  float: left;
+  width: 14%;
+}
